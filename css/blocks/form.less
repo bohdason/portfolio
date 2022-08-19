@@ -1,0 +1,41 @@
+// main: ../style.less
+
+.form__group{
+    margin-bottom: 15px;
+}
+
+.form__input,
+.form__textarea{
+    display: block;
+    width: 100%;
+
+    padding: 15px 25px;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.2;
+
+    border: 1px solid fade(rgb(100, 99, 99), 40%) ;
+
+    border-radius: 27px;
+    
+
+    &:focus {
+        outline: none;
+        border-color: rgb(138, 144, 142);
+    }
+
+}
+
+.form__textarea{
+    height: 200px;
+    resize: none;
+}
+
+.form__label{
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+    display: inline-block;
+}

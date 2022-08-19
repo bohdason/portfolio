@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,200&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+</head>
+<body>
+    
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__inner">
+<div class="user">
+<div class="user__avatar">
+    <img class="photo" src="img/ebay-logo-fb.jpg" alt="">
+</div>
+<div class="user__content">
+    <div class="user__name"> Bohdan <br> Bohdasonov</div>
+    <div class="user__prof"> WEB-DEVELOPER </div>
+</div>
+</div>
+<nav class="nav" id="nav">
+
+    <a class="nav__link" href="#">Work</a>
+    <a class="nav__link"href="#">About me</a>
+    <a class="nav__link"href="#">Blog</a>
+    <a class="nav__link"href="#">Contact</a>
+    <a class="nav__link nav__link--btn"href="#" data-modal="#modal_hire_me">Hire me</a>
+</nav>
+
+<button class="burger" type="button" id="navToggle">
+
+    <img class="burger__icon" src="img/menu.svg" alt="">
+</button>
+        </div>
+    </div>
+</header>
+
+
+
+
+<section class="intro" id="intro">
+    <div class="container">
+
+        <div class="intro__inner">
+            <div class="intro__content">
+                <h2 class="intro__subtitle" >Hello I am</h2>
+                <h2 class="intro__title" >Bohdan  Bohdasonov</h2>
+                <div class="intro__text">WEB-DEVELOPER</div>
+
+                <div class="social">
+                    <a class="social__link" href="#">
+                        <img class="social__icon" src="img/facebook 2.svg" alt="">
+                    </a>
+                    <a class="social__link" href="#">
+                        <img class="social__icon" src="img/instagram.svg" alt="">
+                    </a>
+                    <a class="social__link" href="#">
+                        <img class="social__icon" src="img/linkedin.svg" alt="">
+                    </a>
+                </div>
+
+<a class="btn" href="#" data-modal="#modal_hire_me">HIRE ME  </a>
+<button class="btn" type="button" data-modal="#modal_resume">SEE MY RESUME</button>
+
+            </div>
+            <img class="intro__photo" src="img/pngwing.com (1).png">
+        </div><!--------/ intro__inner-------->
+
+    </div><!--------/ Container-->
+</section>
+
+
+
+<!--------Works------>
+
+<div class="works">
+    <div class="container">
+        <div class="works__nav">
+            <a class="works__nav-link" href="#" data-filter="all">All</a>
+            <a class="works__nav-link" href="#" data-filter="app">App</a>
+            <a class="works__nav-link" href="#" data-filter="website">Website</a>
+            <a class="works__nav-link" href="#" data-filter="interaction">Interaction</a>
+        </div>
+
+        <div class="portfolio" >
+            <div class="portfolio__col" data-cat="app">
+                <div class="work  _anim-items _anim-no-hide" id="work" data-modal="#modal_project_1">
+                <img class="work__image" src="https://place-hold.it/370x300" alt="">
+                <div class="work__content">
+                    <div class="work__cat">Category: app</div>
+                    <div class="work__title">
+                        Project title 
+                        <time class="work__date" datetime="2019-11-22">2022</time>
+                    </div>
+                </div>
+          </div>
+            </div>
+
+
+            <div class="portfolio__col" data-cat="website">
+                <div class="work _anim-items _anim-no-hide">
+                <img class="work__image" src="https://place-hold.it/370x300" alt="">
+                <div class="work__content">
+                    <div class="work__cat">Category: website</div>
+                    <div class="work__title">
+                        Project title 
+                        <time class="work__date" datetime="2019-11-22">2022</time>
+                    </div>
+                </div>
+          </div>
+            </div>
+
+
+            <div class="portfolio__col" data-cat="interaction">
+                <div class="work  _anim-items _anim-no-hide">
+                <img class="work__image" src="https://place-hold.it/370x300" alt="">
+                <div class="work__content">
+                    <div class="work__cat">Category: interaction</div>
+                    <div class="work__title">
+                        Project title 
+                        <time class="work__date" datetime="2019-11-22">2022</time>
+                    </div>
+                </div>
+          </div>
+            </div>
+
+            <div class="portfolio__col" data-cat="app">
+                <div class="work _anim-items _anim-no-hide">
+                <img class="work__image" src="https://place-hold.it/370x300" alt="">
+                <div class="work__content">
+                    <div class="work__cat">Category: app</div>
+                    <div class="work__title">
+                        Project title 
+                        <time class="work__date" datetime="2019-11-22">2022</time>
+                    </div>
+                </div>
+          </div>
+            </div>
+
+
+            <div class="portfolio__col" data-cat="website">
+                <div class="work _anim-items _anim-no-hide">
+                <img class="work__image" src="https://place-hold.it/370x300" alt="">
+                <div class="work__content">
+                    <div class="work__cat">Category: website</div>
+                    <div class="work__title">
+                        Project title 
+                        <time class="work__date" datetime="2019-11-22">2022</time>
+                    </div>
+                </div>
+          </div>
+            </div>
+
+
+            <div class="portfolio__col" data-cat="interaction">
+                <div class="work _anim-items _anim-no-hide">
+                <img class="work__image" src="https://place-hold.it/370x300" alt="">
+                <div class="work__content">
+                    <div class="work__cat">Category: interaction</div>
+                    <div class="work__title">
+                        Project title 
+                        <time class="work__date" datetime="2019-11-22">2022</time>
+                    </div>
+                </div>
+          </div>
+            </div>
+
+
+
+        </div>  <!--------  Portfoliooo ----->
+        <div class="text-center">
+            <a class="btn btn--sm" href="#">Load more work</a>
+        </div>
+
+
+
+    </div> <!-------- Container-->
+</div>  <!---------Works-------->
+
+
+<section class="about">
+    <div class="container">
+
+        <div class="about__inner">
+            <div class="about__photo">
+                <img src="img/figmabody.png" alt="">
+            </div>
+            <div class="about__content">
+                <h3 class="about__title">ABOUT ME</h3>
+                <h2 class="about__bigtitle">WHO AM I</h2>
+                <div class="about__text">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                </div>
+
+
+                <a class="btn" href="#" data-modal="#modal_hire_me">HIRE ME</a>
+                <button class="btn" type="button" data-modal="#modal_resume">SEE MY RESUME</button>
+
+            </div>  <!------- about__content------>
+
+
+        </div>  <!--------about__inner--------->
+
+
+</div>   <!---------Cotainerrr-------->
+
+</section>
+
+<div class="reviews">
+    <div class="container">
+        <div class="reviews__item">
+            <div class="reviews__text">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> 
+                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            </div>
+
+            <div class="reviews__author">
+                <img class="reviews__photo" src="https://place-hold.it/130x130/000" alt="">
+                <div class="reviews__name">Edward M. Brooks</div>
+                <div class="reviews__company"> Marketing House</div>
+                <div class="reviews__rating">
+                    <img class="reviews__star" src="img/star.svg" width="13" height="13" alt="">
+                    <img  class="reviews__star"src="img/star.svg" width="13" height="13" alt="">
+                    <img class="reviews__star"src="img/star.svg" width="13" height="13" alt="">
+                    <img class="reviews__star"src="img/star.svg" width="13" height="13" alt="">
+                    <img class="reviews__star reviews__star--unactive"src="img/star.svg" width="13" height="13" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div> <!-------Container-->
+</div> <!---------reviews------>
+
+
+
+<!--------News-------->
+<section class="news">
+    <div class="container">
+
+        <div class="news__header">
+            <h3 class="news__title">Read Me</h3>
+            <div class="news__text">Sometimes I write something Smart</div>
+        </div>
+        
+        <div class="articles">
+            <div class="articles__col">
+                <div class="articles__item">
+                    <div class="articles__header">
+                        <time class="articles__date">
+                            10 <br> June
+                        </time>
+                     <a href="#">
+                        <img class="articles__photo" src="https://place-hold.it/370x257" alt="">
+                    </a>
+                    </div>
+
+                    <div class="articles__content">
+
+                        <a class="line" href="#"> <h4 class="articles__title">THE BEST APP IN 2017</h4>
+                        </a>
+
+                        <div class="articles__cat">Category</div>
+                        <div class="articles__text">
+                            <P>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </P>
+                        </div>
+                    </div>
+                    <a class="btn btn--sm" href="#">READ MORE</a>
+                </div>   <!------articles__ITEM--------->
+            </div>   <!------articles__COL--------->
+
+
+            <div class="articles__col">
+                <div class="articles__item">
+                    <div class="articles__header">
+                        <time class="articles__date">
+                            10 <br> June
+                        </time>
+                     <a href="#">
+                        <img class="articles__photo" src="https://place-hold.it/370x257" alt="">
+                    </a>
+                    </div>
+
+                    <div class="articles__content">
+
+                        <a class="line" href="#"> <h4 class="articles__title">THE BEST APP IN 2017</h4>
+                        </a>
+
+                        <div class="articles__cat">Category</div>
+                        <div class="articles__text">
+                            <P>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </P>
+                        </div>
+                    </div>
+                    <a class="btn btn--sm" href="#">READ MORE</a>
+                </div>   <!------articles__ITEM--------->
+            </div>   <!------articles__COL--------->
+
+
+            <div class="articles__col">
+                <div class="articles__item">
+                    <div class="articles__header">
+                        <time class="articles__date">
+                            10 <br> June
+                        </time>
+                     <a href="#">
+                        <img class="articles__photo" src="https://place-hold.it/370x257" alt="">
+                    </a>
+                    </div>
+
+                    <div class="articles__content">
+
+                        <a class="line" href="#"> <h4 class="articles__title">THE BEST APP IN 2017</h4>
+                        </a>
+
+                        <div class="articles__cat">Category</div>
+                        <div class="articles__text">
+                            <P>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </P>
+                        </div>
+                    </div>
+                    <a class="btn btn--sm" href="#">READ MORE</a>
+                </div>   <!------articles__ITEM--------->
+            </div>   <!------articles__COL--------->
+
+
+        </div>  <!------articles--------->
+
+        <div class="news__footer">
+            <a class="news__link" href="">See more Posts</a>
+        </div>
+    </div>  <!-------Container-->
+</section>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__credits">
+                <div class="footer__copyright">
+                    &copy; 2022 UI43 - Free Templates
+                </div>
+                <div class="footer__social">
+                    <a href="#" target="_blank">
+                        <img src="img/facebook 21 (1).svg" width="24" alt="">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="img/instagram 21.svg" width="24" alt="">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="img/linkedin 21.svg" width="24" alt="">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="img/twitter 21.svg" width="24" alt="">
+                    </a>
+                    
+
+
+                </div>
+
+            </div>
+
+            <nav class="footer__nav">
+                <a class="footer__nav-link" href="#">Work</a>
+                <a class="footer__nav-link" href="#">About Me</a>
+                <a class="footer__nav-link" href="#">Blog</a>
+                <a class="footer__nav-link--btn footer__nav-link  " href="#">Hire Me</a>
+            </nav>
+
+
+
+
+        </div>   <!-------Footer__inner----------->
+
+    </div>   <!-------Container-------->
+</footer>
+
+
+<!-------Modalss----------->
+<div class="modal" id="modal_project_1" >
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="img/close.svg" alt="">
+        </button>
+
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <div data-slider="slick">
+                    <div>
+                <img class="modal-work__photo" src="https://place-hold.it/790x780" alt="">
+            </div>
+            <div>
+                <img class="modal-work__photo" src="https://place-hold.it/790x780/000" alt="">
+            </div>
+
+
+            </div> <!-----worksSlider--------->
+            </div>
+            <div class="modal-work__content">
+
+                <div class="modal-work__header">
+                <h3 class="modal-work__title">Project title</h3>
+                <div class="modal-work__info">
+                    Category | 2018
+                </div>
+            </div>
+
+            <div class="modal-work__client">
+                <div class="modal-work__title">Client</div>
+                <div class="modal-work__company">Creative Agency</div>
+            </div>
+            <div class="modal-work__text">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> 
+                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            </div>
+            <div class="modal-work__footer">
+                <button class="modal-work__btn  slickPrew" type="button">
+                    <img src="img/left-arrow-svgrepo-com.svg" height="15" alt="">
+                    Previous</button>
+                <button class="modal-work__btn slickNext" type="button">Next
+                    <img src="img/right-arrow-svgrepo-com.svg" height="15" alt="">
+
+                </button>
+
+
+            </div>
+
+
+
+            </div>  <!----------///modal-work__content-->
+        </div>  <!-------//modal__work-------------------->
+
+    </div>  <!-------//modal__dialog-------------------->
+</div>   <!-------/////Modallll -------->
+
+
+
+
+<div class="modal" id="modal_resume">
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="img/close.svg" alt="">
+        </button>
+        <div class="modal__content">
+        <h3 class="modal__title text-center">RESUME</h3>
+        <div class="text-center">
+        <a class="btn btn--thin" href="#">DOWNLOAD PDF</a>
+        <a class="btn btn--thin" href="#">PRINT</a>
+    </div>
+
+    <div class="timeline">
+        <div class="timeline__col timeline__col--left">
+            <h4 class="timeline__title">Experience</h4>
+
+            <div class="timeline__item">
+                <div class="timeline__date">2022- <b>Present</b></div>
+                <h5 class="timeline__subtitle">Freelancer</h5>
+                <div class="timeline__position">Web-developer</div>
+                <div class="timeline__text">
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                </div>
+        </div> <!--------------timeline__item------>
+
+        <div class="timeline__item">
+            <div class="timeline__date">2022- <b>Present</b></div>
+            <h5 class="timeline__subtitle">Freelancer</h5>
+            <div class="timeline__position">Web-developer</div>
+            <div class="timeline__text">
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+            </div>
+    </div> <!--------------timeline__item------>
+
+        </div> <!-------timeline__col------------>
+
+
+
+
+        <div class="timeline__col timeline__col--right">
+            <h4 class="timeline__title">Education</h4>
+
+            <div class="timeline__item">
+                <div class="timeline__date">2019-2023</div>
+                <h5 class="timeline__subtitle">Finance</h5>
+                <div class="timeline__position">LA University USA </div>
+                
+        </div> <!--------------timeline__item------>
+
+        <div class="timeline__item">
+            <div class="timeline__date">2019-2023</div>
+            <h5 class="timeline__subtitle">Finance</h5>
+            <div class="timeline__position">LA University USA </div>
+            
+    </div> <!--------------timeline__item------>
+
+    <h4 class="timeline__title">Skills</h4>
+    <div class="progress-bar">
+        <div class="progress-bar__item">
+
+        <div class="progress-bar__left">
+        <div class="progress-bar__title">HTML</div>
+        </div>
+        <div class="progress-bar__right">
+            <div class="progress-bar__bar">
+                <div class="progress-bar__progress" style="width: 90%;"></div>
+            </div>
+        </div>
+
+        </div>
+
+
+
+        <div class="progress-bar__item">
+
+            <div class="progress-bar__left">
+            <div class="progress-bar__title">CSS</div>
+            </div>
+            <div class="progress-bar__right">
+                <div class="progress-bar__bar">
+                    <div class="progress-bar__progress" style="width: 90%">
+                    </div>
+                </div>
+            </div>
+    
+            </div>
+
+
+
+            <div class="progress-bar__item">
+
+                <div class="progress-bar__left">
+                <div class="progress-bar__title">JS</div>
+                </div>
+                <div class="progress-bar__right">
+                    <div class="progress-bar__bar">
+                        <div class="progress-bar__progress" style="width:90%">
+                        </div>
+                    </div>
+                </div>
+        
+                </div>
+
+
+                <div class="progress-bar__item">
+
+                    <div class="progress-bar__left">
+                    <div class="progress-bar__title">SAAS</div>
+                    </div>
+                    <div class="progress-bar__right">
+                        <div class="progress-bar__bar">
+                            <div class="progress-bar__progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    </div>
+
+                   
+
+
+    </div> <!----- progress-bar------>
+
+    <h4 class="timeline__title">Awards</h4>
+
+    <div class="timeline__item">
+        <div class="timeline__date">2019-2023</div>
+        <h5 class="timeline__subtitle">Finance</h5>
+        <div class="timeline__position">LA University USA </div>
+        <div class="timeline__text">
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+        </div>
+</div> 
+    
+
+
+
+    
+        </div>  <!-------timeline__col--right ------------>
+
+        
+
+    </div>  <!------------timeline------->
+
+    <div class="text-center">
+        <a class="btn" href="#">Hire Me</a>
+    </div>
+
+
+
+    </div>  <!----------modal__content---------->
+
+        
+
+    </div>  <!-------//modal__dialog-------------------->
+</div>   <!-------/////Modallll -------->
+
+
+
+
+
+<div class="modal" id="modal_hire_me">
+    <div class="modal__dialog  modal__dialog--sm">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="img/close.svg" alt="Close">
+        </button>
+        
+    
+      <div class="contact">
+            <div class="contact__left">
+                <h3 class="modal__title mb-0">LET'S ME TALK</h3>
+                <div class="modal__subtitle">CALL ME OR SEND ME A REQUEST</div>
+                <ul class="contact__info">
+                    <li class="contact__info-item">
+                        
+                        <img class="contact__info-icon" src="img/mail-svgrepo-com.svg" height="17" alt="">
+                        (200) 100 3000
+                    </li>
+                    <li>
+                        <img class="contact__info-icon" src="img/phone-svgrepo-com.svg" height="17" alt="">
+                        bohdanson@gmail.com
+                    </li>
+                </ul>
+
+                <form action="/" method="post">
+                    <div class="form__group">
+                    <label class="form__label" for="input-email">Adress e-mail</label>
+                        <input class="form__input" name="input-email" type="text" id="input-email" placeholder="Adress e-mail">
+                    </div>
+
+                    <div class="form__group">
+                        <label class="form__label" for="input-text">Request</label>
+                            <textarea name="text" id="input-text" class="form__textarea" placeholder="Type your reguest"></textarea>
+                        </div>
+                        <div class="text-right">
+                        <button type="submit" class="btn">SEND</button>
+                    </div>
+                </form>
+            </div>  <!-------//contact__left-------------------->
+           
+        </div>     <!-------//contact-------------------->
+        
+    
+    </div>  <!-------//modal__dialog-------------------->
+</div>   <!-------/////Modallll -------->
+
+
+
+
+
+
+<script src="js/slick.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

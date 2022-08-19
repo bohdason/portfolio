@@ -1,0 +1,105 @@
+// main: ../style.less
+
+
+
+.nav__link{
+    font-size: 14px;
+    
+    color: @black;
+    font-weight: 700;
+    text-decoration: none;
+
+   text-transform: uppercase;
+    position: relative;
+    margin-left: 20px;
+
+
+
+    &:after {
+
+        content: "";
+        width: 0;
+        height: 2px;
+        background-color: @black;
+        bottom: -5px;
+        left: 0;
+        z-index: 1;
+
+        transition: width  .2s linear ;
+        position: absolute;
+        
+
+        @media @mobile {
+
+            max-width: 50%;
+            margin-left: 25%;
+        }
+        }
+
+&:hover:not(.nav__link--btn) {
+     
+
+    &:after {
+   width: 100%;
+  
+    
+}
+   }
+
+&--btn{
+     border: 2px solid @black;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: @black;
+    margin-left: 10px;
+    font-weight: bold;
+
+    
+    &:hover {
+        background-color: @black;
+        color: white;
+    }
+
+}
+
+@media @mobile {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 10px;
+    
+
+}
+}
+
+
+
+
+.nav{
+    height: 100% ;
+    
+
+    
+   
+
+    @media @mobile {
+        position: absolute;
+        display: none;
+        top: 100%;
+        right: 0;
+        z-index: 1000;
+        width: 100%;
+        text-align: center;
+        background-color: @white;
+        height: auto;
+        padding: 10px;
+        align-items: center;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
+
+        &.show{
+            display: flex;
+            flex-wrap: wrap ;
+           
+        }
+
+    }
+}
